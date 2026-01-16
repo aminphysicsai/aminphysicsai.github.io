@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Amin Physics</title>
+    <link>http://localhost:1313/posts/</link>
+    <description>Recent content in Posts on Amin Physics</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 14 Jan 2026 02:24:49 +0530</lastBuildDate>
+    <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Why I Love Physics</title>
+      <link>http://localhost:1313/posts/why-i-love-physics/</link>
+      <pubDate>Wed, 14 Jan 2026 02:24:49 +0530</pubDate>
+      <guid>http://localhost:1313/posts/why-i-love-physics/</guid>
+      <description>&lt;p&gt;Physics is not just equations and numbers for me.&lt;/p&gt;&#xA;&lt;p&gt;It is the language through which the universe whispers its secrets.&lt;/p&gt;&#xA;&lt;p&gt;When I look at the night sky, I don’t just see stars —&lt;/p&gt;&#xA;&lt;p&gt;I see time, gravity, and ancient light traveling across billions of years.&lt;/p&gt;&#xA;&lt;p&gt;I love physics because it teaches me humility.&lt;/p&gt;&#xA;&lt;p&gt;No matter how much we know, reality is always deeper.&lt;/p&gt;&#xA;&lt;p&gt;This website is my journey —&lt;/p&gt;&#xA;&lt;p&gt;to understand nature, thought, and existence through physics.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
