@@ -2,25 +2,39 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on Amin Physics</title>
-    <link>http://localhost:1313/posts/</link>
+    <link>https://aminphysicsai.github.io/posts/</link>
     <description>Recent content in Posts on Amin Physics</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 14 Jan 2026 02:24:49 +0530</lastBuildDate>
-    <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 18 Jan 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://aminphysicsai.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Why I Love Physics</title>
-      <link>http://localhost:1313/posts/why-i-love-physics/</link>
-      <pubDate>Wed, 14 Jan 2026 02:24:49 +0530</pubDate>
-      <guid>http://localhost:1313/posts/why-i-love-physics/</guid>
-      <description>&lt;p&gt;Physics is not just equations and numbers for me.&lt;/p&gt;&#xA;&lt;p&gt;It is the language through which the universe whispers its secrets.&lt;/p&gt;&#xA;&lt;p&gt;When I look at the night sky, I don’t just see stars —&lt;/p&gt;&#xA;&lt;p&gt;I see time, gravity, and ancient light traveling across billions of years.&lt;/p&gt;&#xA;&lt;p&gt;I love physics because it teaches me humility.&lt;/p&gt;&#xA;&lt;p&gt;No matter how much we know, reality is always deeper.&lt;/p&gt;&#xA;&lt;p&gt;This website is my journey —&lt;/p&gt;&#xA;&lt;p&gt;to understand nature, thought, and existence through physics.&lt;/p&gt;</description>
+      <title>Interconnected Knowledge</title>
+      <link>https://aminphysicsai.github.io/posts/unified-field/</link>
+      <pubDate>Sun, 18 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>https://aminphysicsai.github.io/posts/unified-field/</guid>
+      <description>&lt;p&gt;The Invisible Network of Knowledge: How Physics, Mathematics, Biology, Chemistry, Philosophy, and Psychology Form One Living System&lt;/p&gt;&#xA;&lt;p&gt;At first glance, human knowledge appears fragmented. Physics studies matter and energy, mathematics deals with abstract patterns, chemistry examines reactions, biology explores life, philosophy questions meaning, and psychology tries to understand the human mind. These disciplines are often taught as separate subjects, divided by textbooks, departments, and terminology. Yet beneath this apparent separation lies a profound truth: all knowledge is deeply interlinked, forming a single, elegant network that explains the complexity of the world and the depth of human experience.&lt;/p&gt;</description>
     </item>
     <item>
-      <title></title>
-      <link>http://localhost:1313/posts/second-article/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/second-article/</guid>
-      <description></description>
+      <title>My New Article</title>
+      <link>https://aminphysicsai.github.io/posts/new-article-electric-fiels/</link>
+      <pubDate>Sun, 18 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>https://aminphysicsai.github.io/posts/new-article-electric-fiels/</guid>
+      <description>&lt;p&gt;Insaan apni zindagi me Electric Field ki tarah kaam karta hai&amp;hellip;..&#xA;Electric field wo jagah hoti hai jahan force lagti hai, jahan kuch hona hi hai&amp;hellip;&amp;hellip;&amp;hellip;&#xA;Zindagi me ye field hoti hai majboori, bhook, ambition, dar, zimmedari, competition. &amp;hellip;&amp;hellip;&amp;hellip;.&#xA;Insaan in fields ke beech move karta hai, react karta hai, fight karta hai, girta hai, uthta hai.&#xA;Yeh sab present ka pressure hai&amp;hellip;..&#xA;Lekin jo cheez reh jaati hai, wo Potential hoti hai&amp;hellip;&amp;hellip;.&#xA;Potential koi force nahi hai  wo memory hai&amp;hellip;&amp;hellip;&amp;hellip;.&#xA;Insaan ne kis jagah kya mehsoos kiya, kya socha, kya sacrifice kiya, kis ko hurt kiya, kis ko heal kiya &amp;hellip;.&#xA;yeh sab space me record ho jaata hai, jaise electric potential space me store hota hai&amp;hellip;&amp;hellip;.&#xA;Ap kisi kamre me jaate ho aur bina kisi wajah ke bhari lagta hai&amp;hellip;.&#xA;wo wahi potential hai&amp;hellip; beeti hui emotions ka..&#xA;Insaan mar jaata hai, uska electric field khatam ho jaata hai &amp;hellip;&amp;hellip;.&#xA;wo ab kisi ko push nahi karta.&#xA;Lekin uski potential energy &amp;hellip;yade, dard, love, ideas wo reh jaati hain.&#xA;Isliye duniya force se nahi chalti,&#xA;yaadon ke potential se chalti hai&amp;hellip;&#xA;Hamari ek sachchi baat, ek imandaar kaam, ek deep soch&#xA;kisi future ke dil ko bina touch kiye bhi chhoo sakti hai&amp;hellip;&amp;hellip;&#xA;Jaise charged shell ke andar field zero hota hai&amp;hellip;..&#xA;par potential zinda rehta hai&#xA;waise hi insaan khud chup ho jaata hai,&#xA;par uski kahani space me ghoomti rehti hai.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Mathematics and the Language of Reality</title>
+      <link>https://aminphysicsai.github.io/posts/second-article/</link>
+      <pubDate>Sat, 17 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>https://aminphysicsai.github.io/posts/second-article/</guid>
+      <description>&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;&#xA;&lt;p&gt;Mathematics sirf numbers nahi hai,&#xA;ye reality ko samajhne ki bhasha hai.&lt;/p&gt;&#xA;&lt;h2 id=&#34;why-mathematics-matters&#34;&gt;Why Mathematics Matters&lt;/h2&gt;&#xA;&lt;p&gt;Yahan tum apna deep thought likh sakte ho.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Why I Love Physics</title>
+      <link>https://aminphysicsai.github.io/posts/why-i-love-physics/</link>
+      <pubDate>Wed, 14 Jan 2026 02:24:49 +0530</pubDate>
+      <guid>https://aminphysicsai.github.io/posts/why-i-love-physics/</guid>
+      <description>&lt;p&gt;Physics is not just equations and numbers for me.&lt;/p&gt;&#xA;&lt;p&gt;It is the language through which the universe whispers its secrets.&lt;/p&gt;&#xA;&lt;p&gt;When I look at the night sky, I don’t just see stars —&lt;/p&gt;&#xA;&lt;p&gt;I see time, gravity, and ancient light traveling across billions of years.&lt;/p&gt;&#xA;&lt;p&gt;I love physics because it teaches me humility.&lt;/p&gt;&#xA;&lt;p&gt;No matter how much we know, reality is always deeper.&lt;/p&gt;&#xA;&lt;p&gt;This website is my journey —&lt;/p&gt;&#xA;&lt;p&gt;to understand nature, thought, and existence through physics.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

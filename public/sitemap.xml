@@ -2,25 +2,26 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/</loc>
+    <loc>https://aminphysicsai.github.io/</loc>
+    <lastmod>2026-01-18T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://aminphysicsai.github.io/posts/unified-field/</loc>
+    <lastmod>2026-01-18T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://aminphysicsai.github.io/posts/new-article-electric-fiels/</loc>
+    <lastmod>2026-01-18T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://aminphysicsai.github.io/posts/</loc>
+    <lastmod>2026-01-18T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://aminphysicsai.github.io/posts/second-article/</loc>
     <lastmod>2026-01-17T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/my-first-article.md/</loc>
-    <lastmod>2026-01-17T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/my-first-article.md/why-i-love-physics/</loc>
-    <lastmod>2026-01-17T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/posts/</loc>
+    <loc>https://aminphysicsai.github.io/posts/why-i-love-physics/</loc>
     <lastmod>2026-01-14T02:24:49+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/why-i-love-physics/</loc>
-    <lastmod>2026-01-14T02:24:49+05:30</lastmod>
+    <loc>https://aminphysicsai.github.io/categories/</loc>
   </url><url>
-    <loc>http://localhost:1313/posts/second-article/</loc>
-  </url><url>
-    <loc>http://localhost:1313/categories/</loc>
-  </url><url>
-    <loc>http://localhost:1313/tags/</loc>
+    <loc>https://aminphysicsai.github.io/tags/</loc>
   </url>
 </urlset>
