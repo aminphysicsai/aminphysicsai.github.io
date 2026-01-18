@@ -1,0 +1,499 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amin Physics AI - Article Upload Guide</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        
+        :root {
+            --primary: #1a237e;
+            --secondary: #283593;
+            --accent: #5c6bc0;
+            --light: #e8eaf6;
+            --dark: #0d1440;
+            --success: #4CAF50;
+        }
+        
+        body {
+            background-color: #f5f7ff;
+            color: #333;
+            line-height: 1.6;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+        
+        /* Header Styles */
+        header {
+            background: linear-gradient(135deg, var(--primary), var(--secondary));
+            color: white;
+            padding: 1.5rem 0;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+        }
+        
+        .header-content {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        
+        .logo {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            font-size: 1.8rem;
+            font-weight: 700;
+        }
+        
+        .logo i {
+            font-size: 2.2rem;
+        }
+        
+        nav ul {
+            display: flex;
+            list-style: none;
+            gap: 25px;
+        }
+        
+        nav a {
+            color: white;
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 1.1rem;
+            transition: all 0.3s;
+            padding: 5px 10px;
+            border-radius: 4px;
+        }
+        
+        nav a:hover {
+            background-color: rgba(255, 255, 255, 0.2);
+        }
+        
+        /* Hero Section */
+        .hero {
+            background: linear-gradient(rgba(26, 35, 126, 0.9), rgba(40, 53, 147, 0.9)), url('https://images.unsplash.com/photo-1532094349884-543bc11b234d?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80');
+            background-size: cover;
+            background-position: center;
+            color: white;
+            padding: 5rem 0;
+            text-align: center;
+            margin-bottom: 3rem;
+        }
+        
+        .hero h1 {
+            font-size: 3.2rem;
+            margin-bottom: 1rem;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+        }
+        
+        .hero p {
+            font-size: 1.3rem;
+            max-width: 800px;
+            margin: 0 auto 2rem;
+        }
+        
+        /* Main Content */
+        .content-section {
+            display: grid;
+            grid-template-columns: 2fr 1fr;
+            gap: 30px;
+            margin-bottom: 4rem;
+        }
+        
+        .main-content {
+            background-color: white;
+            padding: 2.5rem;
+            border-radius: 12px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+        }
+        
+        .sidebar {
+            background-color: white;
+            padding: 2rem;
+            border-radius: 12px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+        }
+        
+        h2 {
+            color: var(--primary);
+            margin-bottom: 1.5rem;
+            padding-bottom: 10px;
+            border-bottom: 2px solid var(--light);
+        }
+        
+        h3 {
+            color: var(--secondary);
+            margin: 1.5rem 0 1rem;
+        }
+        
+        .step {
+            margin-bottom: 2rem;
+            padding-bottom: 1.5rem;
+            border-bottom: 1px solid #eee;
+        }
+        
+        .step-number {
+            display: inline-block;
+            background-color: var(--accent);
+            color: white;
+            width: 36px;
+            height: 36px;
+            text-align: center;
+            line-height: 36px;
+            border-radius: 50%;
+            margin-right: 10px;
+            font-weight: bold;
+        }
+        
+        .code-block {
+            background-color: #2d2d2d;
+            color: #f8f8f2;
+            padding: 1.2rem;
+            border-radius: 8px;
+            font-family: 'Courier New', monospace;
+            margin: 1.2rem 0;
+            overflow-x: auto;
+            font-size: 0.95rem;
+        }
+        
+        .code-block .comment {
+            color: #75715e;
+        }
+        
+        .code-block .command {
+            color: #66d9ef;
+        }
+        
+        .code-block .path {
+            color: #e6db74;
+        }
+        
+        .highlight {
+            background-color: #fff9c4;
+            padding: 2px 6px;
+            border-radius: 4px;
+            font-weight: 600;
+        }
+        
+        .article-structure {
+            background-color: #f0f7ff;
+            border-left: 4px solid var(--accent);
+            padding: 1.5rem;
+            margin: 1.5rem 0;
+            border-radius: 0 8px 8px 0;
+        }
+        
+        .article-structure ul {
+            margin-left: 1.5rem;
+            margin-top: 0.5rem;
+        }
+        
+        .article-structure li {
+            margin-bottom: 0.5rem;
+        }
+        
+        /* Quick Links */
+        .quick-links {
+            margin-top: 2rem;
+        }
+        
+        .quick-links li {
+            margin-bottom: 1rem;
+            padding-bottom: 1rem;
+            border-bottom: 1px solid #eee;
+        }
+        
+        .quick-links a {
+            color: var(--primary);
+            text-decoration: none;
+            font-weight: 600;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            transition: all 0.3s;
+        }
+        
+        .quick-links a:hover {
+            color: var(--accent);
+            transform: translateX(5px);
+        }
+        
+        /* Footer */
+        footer {
+            background-color: var(--dark);
+            color: white;
+            padding: 3rem 0;
+            text-align: center;
+            margin-top: 3rem;
+        }
+        
+        .footer-content {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 1.5rem;
+        }
+        
+        .social-links {
+            display: flex;
+            gap: 20px;
+            margin-top: 1rem;
+        }
+        
+        .social-links a {
+            color: white;
+            font-size: 1.5rem;
+            transition: all 0.3s;
+        }
+        
+        .social-links a:hover {
+            color: var(--accent);
+            transform: translateY(-5px);
+        }
+        
+        /* Responsive Design */
+        @media (max-width: 992px) {
+            .content-section {
+                grid-template-columns: 1fr;
+            }
+            
+            .hero h1 {
+                font-size: 2.5rem;
+            }
+        }
+        
+        @media (max-width: 768px) {
+            .header-content {
+                flex-direction: column;
+                gap: 20px;
+            }
+            
+            nav ul {
+                flex-wrap: wrap;
+                justify-content: center;
+            }
+            
+            .hero {
+                padding: 3rem 0;
+            }
+            
+            .hero h1 {
+                font-size: 2rem;
+            }
+            
+            .main-content, .sidebar {
+                padding: 1.5rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container header-content">
+            <div class="logo">
+                <i class="fas fa-atom"></i>
+                <span>Amin Physics AI</span>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#"><i class="fas fa-home"></i> Home</a></li>
+                    <li><a href="#"><i class="fas fa-book"></i> Articles</a></li>
+                    <li><a href="#"><i class="fas fa-upload"></i> Upload Guide</a></li>
+                    <li><a href="#"><i class="fas fa-info-circle"></i> About</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <h1>How to Upload New Articles</h1>
+            <p>A complete step-by-step guide to publishing new content on your Amin Physics AI GitHub Pages website</p>
+        </div>
+    </section>
+
+    <!-- Main Content -->
+    <div class="container content-section">
+        <!-- Main Content Area -->
+        <main class="main-content">
+            <h2>Step-by-Step Guide to Upload New Articles</h2>
+            
+            <div class="step">
+                <h3><span class="step-number">1</span> Prepare Your Article Content</h3>
+                <p>Create your article in HTML format. You can use any text editor (like VS Code, Notepad++, or even Notepad) to create an HTML file.</p>
+                
+                <div class="article-structure">
+                    <p><strong>Recommended Article Structure:</strong></p>
+                    <ul>
+                        <li>Create a folder for your article (e.g., "quantum-mechanics-basics")</li>
+                        <li>Inside this folder, create an <span class="highlight">index.html</span> file</li>
+                        <li>Create a subfolder for images (e.g., "images") if needed</li>
+                        <li>Your HTML should include proper meta tags, title, and structured content</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="step">
+                <h3><span class="step-number">2</span> Connect to Your GitHub Repository</h3>
+                <p>You need to have Git installed on your computer. Open your terminal or command prompt and navigate to your local repository folder.</p>
+                
+                <div class="code-block">
+                    <span class="comment"># Navigate to your local repository</span><br>
+                    <span class="command">cd</span> <span class="path">/path/to/aminphysicsai.github.io</span><br><br>
+                    
+                    <span class="comment"># Check the status of your repository</span><br>
+                    <span class="command">git</span> status<br><br>
+                    
+                    <span class="comment"># If you haven't cloned the repository yet:</span><br>
+                    <span class="command">git</span> clone https://github.com/aminphysicsai/aminphysicsai.github.io.git<br>
+                    <span class="command">cd</span> <span class="path">aminphysicsai.github.io</span>
+                </div>
+            </div>
+            
+            <div class="step">
+                <h3><span class="step-number">3</span> Add Your New Article Files</h3>
+                <p>Copy your article folder (with all HTML, CSS, and image files) to the appropriate location in your repository.</p>
+                
+                <div class="code-block">
+                    <span class="comment"># For example, if you want to add a "quantum-physics" article:</span><br>
+                    <span class="comment"># Copy your article folder to the repository</span><br>
+                    <span class="comment"># Then add it to Git:</span><br>
+                    <span class="command">git</span> add quantum-physics/<br><br>
+                    
+                    <span class="comment"># Or add all new files:</span><br>
+                    <span class="command">git</span> add .<br><br>
+                    
+                    <span class="comment"># Check what you've added:</span><br>
+                    <span class="command">git</span> status
+                </div>
+            </div>
+            
+            <div class="step">
+                <h3><span class="step-number">4</span> Commit and Push Your Changes</h3>
+                <p>Commit your changes with a descriptive message and push them to GitHub.</p>
+                
+                <div class="code-block">
+                    <span class="comment"># Commit your changes</span><br>
+                    <span class="command">git</span> commit -m "Added new article: Introduction to Quantum Physics"<br><br>
+                    
+                    <span class="comment"># Push to GitHub</span><br>
+                    <span class="command">git</span> push origin main
+                </div>
+                
+                <p><strong>Note:</strong> If you're using the default branch <span class="highlight">master</span> instead of <span class="highlight">main</span>, use <span class="highlight">git push origin master</span> instead.</p>
+            </div>
+            
+            <div class="step">
+                <h3><span class="step-number">5</span> Update the Main Navigation</h3>
+                <p>To make your article accessible from the main website, update the navigation menu in your main HTML files.</p>
+                
+                <div class="code-block">
+                    <span class="comment">&lt;!-- In your index.html or main navigation file --&gt;</span><br>
+                    &lt;li&gt;&lt;a href="<span class="path">quantum-physics/</span>"&gt;Quantum Physics&lt;/a&gt;&lt;/li&gt;<br>
+                    &lt;li&gt;&lt;a href="<span class="path">relativity/</span>"&gt;Theory of Relativity&lt;/a&gt;&lt;/li&gt;<br>
+                    <span class="comment">&lt;!-- Add your new article link here --&gt;</span><br>
+                    &lt;li&gt;&lt;a href="<span class="path">new-article-folder/</span>"&gt;Your New Article&lt;/a&gt;&lt;/li&gt;
+                </div>
+            </div>
+            
+            <div class="step">
+                <h3><span class="step-number">6</span> Verify Your Publication</h3>
+                <p>After pushing your changes, visit your website to verify the article is live:</p>
+                <p><strong>Website URL:</strong> <span class="highlight">https://aminphysicsai.github.io/new-article-folder/</span></p>
+                <p>GitHub Pages may take a few minutes (up to 10 minutes) to deploy your changes.</p>
+            </div>
+        </main>
+        
+        <!-- Sidebar -->
+        <aside class="sidebar">
+            <h2>Quick Links</h2>
+            <ul class="quick-links">
+                <li><a href="#"><i class="fas fa-external-link-alt"></i> Your GitHub Repository</a></li>
+                <li><a href="#"><i class="fas fa-code"></i> HTML Template for Articles</a></li>
+                <li><a href="#"><i class="fas fa-images"></i> Image Optimization Guide</a></li>
+                <li><a href="#"><i class="fas fa-cogs"></i> GitHub Pages Settings</a></li>
+                <li><a href="#"><i class="fas fa-question-circle"></i> Troubleshooting Guide</a></li>
+            </ul>
+            
+            <h2>Important Tips</h2>
+            <div class="article-structure">
+                <ul>
+                    <li>Keep file and folder names lowercase with hyphens (no spaces)</li>
+                    <li>Optimize images for web (use .jpg or .webp format)</li>
+                    <li>Test your article locally before pushing to GitHub</li>
+                    <li>Use semantic HTML tags for better structure</li>
+                    <li>Include meta descriptions for SEO</li>
+                </ul>
+            </div>
+            
+            <h2>Next Steps</h2>
+            <p>Once your article is live, consider:</p>
+            <ul class="quick-links">
+                <li>Sharing on social media</li>
+                <li>Linking from your homepage</li>
+                <li>Creating a sitemap update</li>
+                <li>Adding to your article index page</li>
+            </ul>
+        </aside>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container footer-content">
+            <div class="logo">
+                <i class="fas fa-atom"></i>
+                <span>Amin Physics AI</span>
+            </div>
+            <p>Exploring the universe through physics and artificial intelligence</p>
+            <p>Website: <strong>aminphysicsai.github.io</strong></p>
+            <div class="social-links">
+                <a href="#"><i class="fab fa-github"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-linkedin"></i></a>
+                <a href="#"><i class="fab fa-youtube"></i></a>
+            </div>
+            <p>&copy; 2023 Amin Physics AI. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        // Simple script to highlight current step
+        document.addEventListener('DOMContentLoaded', function() {
+            const steps = document.querySelectorAll('.step');
+            
+            steps.forEach(step => {
+                step.addEventListener('mouseover', function() {
+                    this.style.transform = 'translateY(-5px)';
+                    this.style.transition = 'transform 0.3s ease';
+                });
+                
+                step.addEventListener('mouseout', function() {
+                    this.style.transform = 'translateY(0)';
+                });
+            });
+            
+            // Add click functionality to quick links
+            const quickLinks = document.querySelectorAll('.quick-links a');
+            quickLinks.forEach(link => {
+                link.addEventListener('click', function(e) {
+                    e.preventDefault();
+                    alert('This is a demonstration. In the actual website, this would navigate to the respective page.');
+                });
+            });
+        });
+    </script>
+</body>
+</html>
