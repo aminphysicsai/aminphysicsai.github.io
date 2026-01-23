@@ -1,8 +1,11 @@
 ---
 title: "Interconnected Knowledge"
-date: 2026-01-18
+date: 2026-01-19
 draft: false
+slug: "unified-field"
+url: "/posts/unified-field/"
 ---
+
 The Invisible Network of Knowledge: How Physics, Mathematics, Biology, Chemistry, Philosophy, and Psychology Form One Living System
 
 At first glance, human knowledge appears fragmented. Physics studies matter and energy, mathematics deals with abstract patterns, chemistry examines reactions, biology explores life, philosophy questions meaning, and psychology tries to understand the human mind. These disciplines are often taught as separate subjects, divided by textbooks, departments, and terminology. Yet beneath this apparent separation lies a profound truth: all knowledge is deeply interlinked, forming a single, elegant network that explains the complexity of the world and the depth of human experience.
