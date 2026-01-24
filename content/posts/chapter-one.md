@@ -13,6 +13,8 @@ Consciousness, Mathematics, Emotion, and the Silent Intelligence of Nature
 
 This article marks the beginning of a chapter-wise series, written not merely to study physics, but to experience it as a philosophy of existence. Here, physics is not reduced to formulas and problem-solving techniques. Instead, it is approached as a deep lens through which reality, consciousness, emotions, and nature reveal their hidden unity.
 
+<!--more-->
+
 This is the foundation of a book-in-progress—now unfolding as a living series on this website.
 
 1. Physics Is Not a Subject, It Is a Perspective

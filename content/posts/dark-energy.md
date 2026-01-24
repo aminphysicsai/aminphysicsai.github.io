@@ -10,6 +10,8 @@ Invisible Structures: Dark Matter, Entropy, and the Human Search for Order
 
 The universe appears luminous and structured on the surface. Stars shine, galaxies rotate gracefully, and physical laws seem orderly and precise. Yet, modern physics reveals a profound truth beneath this apparent clarity: most of what governs the universe is invisible. Dark matter, entropy, and chaotic dynamics quietly shape reality without announcing themselves. In understanding these concepts together, we also uncover something deeply human—our constant struggle to create meaning and order within uncertainty.
 
+<!--more-->
+
 Dark matter is the most striking example of invisible dominance. It does not emit light, absorb radiation, or interact electromagnetically. By all ordinary standards, it should be irrelevant. And yet, without dark matter, galaxies would not exist in their observed form. Stars at the edges of galaxies rotate too fast to be held together by visible matter alone. Light bends more than expected around galaxy clusters. Large-scale structures in the universe—filaments, voids, clusters—require an unseen gravitational scaffold. Dark matter does not appear, but it acts. It shapes outcomes while remaining hidden.
 
 This introduces a radical shift in how reality is understood. Existence is no longer tied to visibility. Something can be real, causal, and essential without being directly observed. Physics, here, quietly aligns with a philosophical insight: the most powerful forces are often the least visible.

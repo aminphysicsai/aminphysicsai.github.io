@@ -15,6 +15,8 @@ from the unsettling realization that external order does not always guarantee in
 
 The Silent Nature of Decay
 
+<!--more-->
+
 Gradually, a realization took shape: decay does not always announce itself. It does not always arrive with noise or collapse. Sometimes it enters through neglect—through pauses without purpose.
 
 Disorder does not require disruption; it only requires the absence of direction.
