@@ -1,11 +1,11 @@
 baseURL = "https://aminphysicsai.github.io/"
 
-
 languageCode = "en-us"
-
 title = "Amin Physics"
-
 theme = "ananke"
+
+relativeURLs = true
+canonifyURLs = true
 
 [params]
 disableThemeToggle = true
