@@ -1,60 +1,60 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tags on Amin Physics</title>
-    <link>https://aminphysicsai.github.io/tags/</link>
-    <description>Recent content in Tags on Amin Physics</description>
+    <title>Tags on </title>
+    <link>https://aminphysicsai.github.io/Amin-physics/tags/</link>
+    <description>Recent content in Tags on </description>
     <generator>Hugo</generator>
-    <language>en-us</language>
+    <language>en</language>
     <lastBuildDate>Fri, 23 Jan 2026 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://aminphysicsai.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://aminphysicsai.github.io/Amin-physics/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Dark Matter</title>
-      <link>https://aminphysicsai.github.io/tags/dark-matter/</link>
+      <link>https://aminphysicsai.github.io/Amin-physics/tags/dark-matter/</link>
       <pubDate>Fri, 23 Jan 2026 00:00:00 +0000</pubDate>
-      <guid>https://aminphysicsai.github.io/tags/dark-matter/</guid>
+      <guid>https://aminphysicsai.github.io/Amin-physics/tags/dark-matter/</guid>
       <description></description>
     </item>
     <item>
       <title>Entropy</title>
-      <link>https://aminphysicsai.github.io/tags/entropy/</link>
+      <link>https://aminphysicsai.github.io/Amin-physics/tags/entropy/</link>
       <pubDate>Fri, 23 Jan 2026 00:00:00 +0000</pubDate>
-      <guid>https://aminphysicsai.github.io/tags/entropy/</guid>
+      <guid>https://aminphysicsai.github.io/Amin-physics/tags/entropy/</guid>
       <description></description>
     </item>
     <item>
       <title>Meaning</title>
-      <link>https://aminphysicsai.github.io/tags/meaning/</link>
+      <link>https://aminphysicsai.github.io/Amin-physics/tags/meaning/</link>
       <pubDate>Fri, 23 Jan 2026 00:00:00 +0000</pubDate>
-      <guid>https://aminphysicsai.github.io/tags/meaning/</guid>
+      <guid>https://aminphysicsai.github.io/Amin-physics/tags/meaning/</guid>
       <description></description>
     </item>
     <item>
       <title>Philosophy</title>
-      <link>https://aminphysicsai.github.io/tags/philosophy/</link>
+      <link>https://aminphysicsai.github.io/Amin-physics/tags/philosophy/</link>
       <pubDate>Fri, 23 Jan 2026 00:00:00 +0000</pubDate>
-      <guid>https://aminphysicsai.github.io/tags/philosophy/</guid>
+      <guid>https://aminphysicsai.github.io/Amin-physics/tags/philosophy/</guid>
       <description></description>
     </item>
     <item>
       <title>Physics</title>
-      <link>https://aminphysicsai.github.io/tags/physics/</link>
+      <link>https://aminphysicsai.github.io/Amin-physics/tags/physics/</link>
       <pubDate>Fri, 23 Jan 2026 00:00:00 +0000</pubDate>
-      <guid>https://aminphysicsai.github.io/tags/physics/</guid>
+      <guid>https://aminphysicsai.github.io/Amin-physics/tags/physics/</guid>
       <description></description>
     </item>
     <item>
       <title>Consciousness</title>
-      <link>https://aminphysicsai.github.io/tags/consciousness/</link>
+      <link>https://aminphysicsai.github.io/Amin-physics/tags/consciousness/</link>
       <pubDate>Tue, 20 Jan 2026 00:00:00 +0000</pubDate>
-      <guid>https://aminphysicsai.github.io/tags/consciousness/</guid>
+      <guid>https://aminphysicsai.github.io/Amin-physics/tags/consciousness/</guid>
       <description></description>
     </item>
     <item>
       <title>Mathematics</title>
-      <link>https://aminphysicsai.github.io/tags/mathematics/</link>
+      <link>https://aminphysicsai.github.io/Amin-physics/tags/mathematics/</link>
       <pubDate>Tue, 20 Jan 2026 00:00:00 +0000</pubDate>
-      <guid>https://aminphysicsai.github.io/tags/mathematics/</guid>
+      <guid>https://aminphysicsai.github.io/Amin-physics/tags/mathematics/</guid>
       <description></description>
     </item>
   </channel>
