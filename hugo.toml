@@ -1,5 +1,4 @@
-baseURL = "http://localhost:1313/"
+baseURL = "https://aminphysicsai.github.io/Amin-physics/"
 languageCode = "en-us"
 title = "Amin Physics"
 theme = "ananke"
-
