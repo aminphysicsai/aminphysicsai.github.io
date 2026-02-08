@@ -2,6 +2,3 @@ baseURL = "https://aminphysicsai.github.io/"
 languageCode = "en-us"
 title = "Amin Physics"
 theme = "ananke"
-
-canonifyURLs = true
-relativeURLs = true
